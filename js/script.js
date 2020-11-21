@@ -73,9 +73,9 @@ printQuote();
 randomColor();
 
 /*  every three seconds, call the "printQuote" function  */
-setInterval( printQuote, 3000);
+setInterval( printQuote, 3000 );
 /*  every three seconds, call the "randomColor" function  */
-setInterval( randomColor, 3000);
+setInterval( randomColor, 3000 );
 
 /*  load a new random quote when the "show another quote" button is pressed  */
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
